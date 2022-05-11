@@ -63,3 +63,12 @@ ul {
 }
 
 
+#principal{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  max-width: 150vh;
+  padding: 30px;
+  gap:20px
+  border-radius: 30px;
+  backdrop-filter: blur(20px);
+}
