@@ -23,7 +23,7 @@ a,
 img, button {
   font-size: 1.5rem;
   font-family: "Comfortaa";
-  line-height: 2.5rem;
+  line-height: 1.5;
   color: #fff;
   text-decoration: none;
 }
@@ -31,12 +31,19 @@ img, button {
 h1 {
   font-size: 3rem;
   margin-bottom: 15px;
+  line-height: 1;
 }
 
 h2,
 h3 {
+  color: yellow;
   font-size: 2rem;
+  line-height: 2.5;
   text-transform: uppercase;
+}
+
+p{
+  font-weight: 100;
 }
 
 /* DISPLAY */
@@ -68,7 +75,7 @@ ul {
 }
 
 section{
-  margin-top: 50px;
+  margin-top: 80px;
 }
 
 #principal{
@@ -86,12 +93,12 @@ section{
   flex-direction: column;
   justify-content: center;
   gap:20px;
-  width: 80vh;
+  width: 70vh;
   border-radius: 30px;
   background-color: rgba(43, 5, 43, 0.699);
 }
 
-button{
+button, input{
   color: black;
   font-size: 1.5rem;
   padding: 10px;
@@ -111,3 +118,5 @@ footer p{
   font-size: 1.2rem;
   font-weight: 300;
 }
+
+@media (max-width:600px)
