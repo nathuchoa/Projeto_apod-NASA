@@ -25,6 +25,7 @@ img {
   font-family: "Comfortaa";
   line-height: 2.5rem;
   color: #fff;
+  text-decoration: none;
 }
 
 h1 {
@@ -38,19 +39,12 @@ h3 {
   text-transform: uppercase;
 }
 
-a{
-  text-decoration: none;
-  color: #fff;
-}
-
 /* DISPLAY */
 
 body {
-  background-image: linear-gradient(
-      rgba(36, 7, 63, 0.205),
-      rgba(36, 7, 63, 0.205)
-    ),
-    url("./img/bg.gif");
+  display: block;
+  background-image: linear-gradient(to bottom right, rgba(29, 4, 53, 0.651), rgba(63, 9, 50, 0.192)), url(./img/bg.gif);
+  background-repeat:no-repeat;
 }
 
 header {
@@ -67,3 +61,5 @@ ul {
   padding: 10px;
   gap: 20px;
 }
+
+
