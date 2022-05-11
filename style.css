@@ -117,6 +117,32 @@ footer{
 footer p{
   font-size: 1.2rem;
   font-weight: 300;
+  background-color: #000;
+  padding: 10px;
 }
 
-@media (max-width:600px)
+@media (max-width:900px){
+  body{
+   
+  }
+
+ #principal{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+  }
+
+  .div-data{
+    width: 35vh;
+  }
+
+  button{
+    margin-bottom: 20px;
+  }
+}
+
+@media (max-width:600px){
+  #principal{
+    max-width: 90%;
+  }
+ }
