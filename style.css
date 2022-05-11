@@ -1,3 +1,4 @@
+/* RESET GLOBAL */
 * {
   margin: 0;
   padding: 0;
@@ -6,3 +7,18 @@
   list-style: none;
   box-sizing: border-box;
 }
+
+/* COLORS */
+
+/* FONTS */
+
+h1, h2, h3, h4, p, label, input, a, alt{
+  font-family: fantasy;
+  line-height: 1rem;
+}
+
+h1{
+  font-size: 2.5rem;
+
+}
+
