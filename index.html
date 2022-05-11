@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -10,22 +11,25 @@
 </head>
 
 <body>
+
+
+  <header class="initial">
+    <img src="./img/logosite" alt="Site Icon">
+    <nav id="menu-language">
+      <ul id="languages-option">
+        <li><a href="./index.html">English</a></li>
+        <li><a href="./indexPT/indexPT.html">Português</a></li>
+      </ul>
+    </nav>
+  </header>
   
   <main>
-    <header class="initial">
-      <img src="./img/logosite" alt="Site Icon">
-      <nav id="menu-language">
-        <ul id="languages-option">
-          <li><a href="./index.html">English</a></li>
-          <li><a href="./indexPT/indexPT.html">Português</a></li>
-        </ul>
-      </nav>
-    </header>
-
-    <section>
-      <h1>Welcome to the Astronomy Picture of the Day!</Picture></h1>
-      <p>This platform was developed to enhance your experience with the API "APOD: Astronomy Picture of the Day" developed by NASA. This API has registered images since June 1995. <br>To see the image that was registered, simply choose a date.</p>
-
+    <section id="principal">
+      <div id="div-welcome">
+        <h3>Welcome to the </h3>
+        <h1>Astronomy Picture of the Day</h1>
+        <p>This platform was developed to enhance your experience with the API "APOD: Astronomy Picture of the Day" developed by NASA. This API has registered images since June 1995. <br>To see the image that was registered, simply choose a date.</p>
+      </div>
       <div class="div-data">
         <label for="choose a date">Choose a date</label>
         <input type="date" name="date" id="input-date">
@@ -39,4 +43,5 @@
   </footer>
   <script src="./index.js"></script>
 </body>
+
 </html>
