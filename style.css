@@ -42,18 +42,23 @@ h3 {
 /* DISPLAY */
 
 body {
-  display: block;
-  background-image: linear-gradient(to bottom right, rgba(29, 4, 53, 0.651), rgba(63, 9, 50, 0.192)), url(./img/bg.gif);
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+  background-image: linear-gradient(to top, rgba(29, 4, 53, 0.651), rgba(63, 9, 50, 0.192)), url(./img/bg.gif);
   background-repeat:no-repeat;
+  height: 100vh;
 }
 
 header {
   display: flex;
   justify-content: space-between;
+  width: 100%;
   align-items: center;
   padding-top: 10px;
   background-color: rgba(214, 20, 198, 0.233);
-  backdrop-filter: blur(2px);
+  backdrop-filter: blur(20px);
+  background-attachment: fixed;
 }
 
 ul {
@@ -74,4 +79,16 @@ section{
   gap:20px;
   border-radius: 30px;
   backdrop-filter: blur(20px);
+}
+
+footer{
+  bottom: 0;
+  position: fixed;
+  width: 100%;
+  text-align: center;
+}
+
+footer p{
+  font-size: 1.2rem;
+  font-weight: 300;
 }
