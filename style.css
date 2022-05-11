@@ -24,6 +24,7 @@ img {
   font-size: 1.5rem;
   font-family: "Comfortaa";
   line-height: 2.5rem;
+  color: #fff;
 }
 
 h1 {
@@ -35,6 +36,11 @@ h2,
 h3 {
   font-size: 2rem;
   text-transform: uppercase;
+}
+
+a{
+  text-decoration: none;
+  color: #fff;
 }
 
 /* DISPLAY */
