@@ -24,7 +24,7 @@
   </header>
 
   <main>
-    <section id="principal">
+    <section class="principal">
       <div id="div-welcome">
         <h2>Welcome to the </h2>
         <h1>Astronomy Picture of the Day</h1>
@@ -35,6 +35,24 @@
         <input type="date" name="date" id="input-date" required>
         <button id="btn" type="submit">View</button>
       </form>
+    </section>
+    <section  class="principal" id="showData">
+
+      <div>
+        <h3 id="date"></h3>
+
+        <iframe id="player" src="">
+        </iframe>
+
+        <div>
+          <img id="picture" src="" alt="" height="300">
+        </div>
+      </div>
+      <div>
+        <h2 id="title"></h2>
+        <p id="explanation"> </p>
+      </div>
+
     </section>
   </main>
   <footer>
