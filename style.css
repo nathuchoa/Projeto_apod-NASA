@@ -140,10 +140,13 @@ input {
   padding: 10px;
   line-height: 1rem;
   border-radius: 10px;
+  min-width: 100px;
 }
 
-button a {
-  color: black;
+input{
+  font-size: 1.2rem;
+  height: 50px;
+  width: 150px;
 }
 
 button:hover {
@@ -192,15 +195,30 @@ footer p {
     width: 80%;
   }
 
-  main {
+  main , .principal {
     display: flex;
     flex-direction: column;
-    gap: 50px;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
     margin-bottom: 100px;
+    width: 100%;
+  }
+
+  .principal{
+    margin: 5px;
+    padding: 0;
+  }
+
+  #showData{
+    margin: 0;
+    padding: 10px;
   }
 
   .div-data {
-    width: 80%;
+    width: 100%;
+    margin: 0;
+    padding: 10px;
   }
 
   button {
@@ -217,6 +235,9 @@ footer p {
   }
   main {
     width: 80%;
+  }
+  h1, h2, h3, p{
+    margin: 10px;
   }
   footer {
     padding: 10px;
