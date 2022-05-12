@@ -78,6 +78,12 @@ header img {
   margin: 10px 20px;
 }
 
+#picture {
+  height: auto;
+  max-width: 400px;
+  object-fit: cover;
+}
+
 nav,
 #inputNewDate {
   display: flex;
@@ -107,7 +113,7 @@ section {
   margin-top: 80px;
 }
 
-.principal{
+.principal {
   display: grid;
   grid-template-columns: 1fr 1fr;
   max-width: 150vh;
@@ -143,7 +149,7 @@ input {
   min-width: 100px;
 }
 
-input{
+input {
   font-size: 1.2rem;
   height: 50px;
   width: 150px;
@@ -158,7 +164,7 @@ input:hover {
   box-shadow: 0 0 0.7em gold;
 }
 
-#showData{
+#showData {
   background-color: rgba(51, 35, 66, 0.445);
   backdrop-filter: blur(2px);
   border-radius: 30px;
@@ -195,7 +201,8 @@ footer p {
     width: 80%;
   }
 
-  main , .principal {
+  main,
+  .principal {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -204,13 +211,16 @@ footer p {
     margin-bottom: 100px;
     width: 100%;
   }
+  #picture {
+    max-width: 400px;
+  }
 
-  .principal{
+  .principal {
     margin: 5px;
     padding: 0;
   }
 
-  #showData{
+  #showData {
     margin: 0;
     padding: 10px;
   }
@@ -224,7 +234,7 @@ footer p {
   button {
     margin-bottom: 20px;
   }
-  .label-hide{
+  .label-hide {
     display: none;
   }
 }
@@ -236,8 +246,14 @@ footer p {
   main {
     width: 80%;
   }
-  h1, h2, h3, p{
+  h1,
+  h2,
+  h3,
+  p {
     margin: 10px;
+  }
+  #picture {
+    max-width: 200px;
   }
   footer {
     padding: 10px;
@@ -248,15 +264,15 @@ footer p {
   header img {
     height: 8vh;
   }
-  header{
+  header {
     justify-content: start;
   }
-  .size-img{
+  .size-img {
     margin-top: 0px;
     padding: 0;
     height: 5vh;
   }
-  .size-input{
+  .size-input {
     margin: 0;
     font-size: small;
   }
