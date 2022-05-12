@@ -18,13 +18,13 @@
 
 <body>
 
-  <header class="initial">
-    <img src="../img/logosite.png" alt="Site Icon">
-    <div id="inputNewDate">
+  <header class="initial" id=" size-header" >
+    <img class="size-img" src="../img/logosite.png" alt="Site Icon">
+    <div id="inputNewDate" class=" size-div">
       <label for="choose a date">
-        <h3>Choose a date</h3>
+        <h3 class="label-hide">New date</h3>
       </label>
-      <input type="date" name="date" id="input-date">
+      <input type="date" name="date" id="input-date" class="size-input">
       <button id="btn" type="submit">View</button>
     </div>
   </header>
@@ -34,15 +34,14 @@
 
       <div>
         <h3 id="date"></h3>
+
+        <iframe id="player" src="">
+        </iframe>
+
+        <div>
+          <img id="picture" src="" alt="" height="300">
+        </div>
       </div>
-
-      <iframe id="player" src="">
-      </iframe>
-
-      <div>
-        <img id="picture" src="" alt="" height="200">
-      </div>
-
       <div>
         <h2 id="title"></h2>
         <p id="explanation"> </p>

@@ -193,14 +193,17 @@ footer p {
   button {
     margin-bottom: 20px;
   }
+  .label-hide{
+    display: none;
+  }
 }
 
 @media (max-width: 600px) {
   section {
-    width: 90%;
+    width: 80%;
   }
   #principal {
-    width: 90%;
+    width: 80%;
   }
   footer {
     padding: 10px;
@@ -210,5 +213,17 @@ footer p {
   }
   header img {
     height: 8vh;
+  }
+  header{
+    justify-content: start;
+  }
+  .size-img{
+    margin-top: 0px;
+    padding: 0;
+    height: 5vh;
+  }
+  .size-input{
+    margin: 0;
+    font-size: small;
   }
 }
