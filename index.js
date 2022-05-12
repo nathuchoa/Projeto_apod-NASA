@@ -1,11 +1,12 @@
 // KEY = Hw6qfws3Axc2VfVsnS2keuM44BFB81nXnDvvyh1a
 
 const btn = document.getElementById("btn");
+$("#showData").hide();
 
 btn.addEventListener("click", function (e) {
   e.preventDefault();
   requisicao();
-  console.log("funcionou");
+  $("#showData").show()
 });
 
 function requisicao() {
