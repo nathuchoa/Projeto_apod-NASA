@@ -120,6 +120,7 @@ main {
   margin-top: 50px;
   border-radius: 30px;
   backdrop-filter: blur(20px);
+  margin-bottom: 50px;
 }
 
 .div-data {
@@ -152,6 +153,13 @@ button:hover {
 
 input:hover {
   box-shadow: 0 0 0.7em gold;
+}
+
+#showData{
+  background-color: rgba(51, 35, 66, 0.445);
+  backdrop-filter: blur(2px);
+  border-radius: 30px;
+  margin: 20px;
 }
 
 footer {
