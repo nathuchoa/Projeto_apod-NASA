@@ -123,6 +123,12 @@ footer {
   background-color: rgba(0, 0, 0, 0.644);
   backdrop-filter: blur(20px);
 }
+.logo-footer{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
 
 .logo-footer img{
   margin-right: 20px;
@@ -164,5 +170,8 @@ footer p {
   }
   footer{
     padding: 10px;
+  }
+  footer p{
+    font-size: 0.8rem;
   }
 }
