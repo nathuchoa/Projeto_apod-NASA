@@ -2,7 +2,8 @@
 
 const btn = document.getElementById("btn");
 
-btn.addEventListener("click", function () {
+btn.addEventListener("click", function (e) {
+  e.preventDefault();
   requisicao();
   console.log("funcionou");
 });
