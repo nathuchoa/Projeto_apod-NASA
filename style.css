@@ -78,7 +78,6 @@ header img{
   margin: 10px 20px;
 }
 
-
 nav{
   display: flex;
   flex-direction: row;
@@ -198,5 +197,8 @@ footer p {
   }
   footer p{
     font-size: 0.8rem;
+  }
+  header img{
+    height: 8vh;
   }
 }
