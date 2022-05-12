@@ -8,8 +8,6 @@
   box-sizing: border-box;
 }
 
-/* COLORS */
-
 /* FONTS */
 
 h1,
@@ -46,7 +44,10 @@ p {
   font-weight: 100;
 }
 
-/* DISPLAY */
+header img{
+  height: 10vh;
+  margin-bottom: 10px;
+}
 
 html {
   background-attachment: fixed;
@@ -68,9 +69,7 @@ body {
 
 header {
   display: flex;
-  justify-content: space-between;
   width: 100%;
-  align-items: center;
   padding-top: 10px;
   background-color: rgba(214, 20, 198, 0.137);
   backdrop-filter: blur(20px);
@@ -80,6 +79,11 @@ ul {
   display: flex;
   padding: 10px;
   gap: 20px;
+}
+
+a:hover{
+  color:gold;
+  text-decoration: underline;
 }
 
 section {
