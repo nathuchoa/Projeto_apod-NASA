@@ -44,11 +44,6 @@ p {
   font-weight: 100;
 }
 
-header img{
-  height: 10vh;
-  margin-bottom: 10px;
-}
-
 html {
   background-attachment: fixed;
   background-image: linear-gradient(
@@ -69,14 +64,31 @@ body {
 
 header {
   display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
   width: 100%;
   padding-top: 10px;
   background-color: rgba(214, 20, 198, 0.137);
   backdrop-filter: blur(20px);
 }
 
+header img{
+  height: 10vh;
+  margin: 10px 20px;
+}
+
+
+nav{
+  display: flex;
+  flex-direction: row;
+  margin: auto 20px;
+}
+
 ul {
   display: flex;
+  justify-content: center;
+  align-items: center;
   padding: 10px;
   gap: 20px;
 }
