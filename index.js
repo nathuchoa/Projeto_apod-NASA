@@ -25,8 +25,9 @@ function showData(data) {
   const imagem = $("#picture");
   const urlMidia = data.url;
   const tipoMedia = JSON.stringify(data.media_type);
-  $("title").text(data.title);
-  $("explanation").text(data.explanation);
+  $("#title").text(data.title);
+  $("#explanation").text(data.explanation);
+  $("#date").text(data.date);
 
   if (tipoMedia == '"image"') {
     $("#player").hide();
