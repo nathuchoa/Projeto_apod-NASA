@@ -115,6 +115,15 @@ input {
   border-radius: 10px;
 }
 
+button:hover{
+  background-color: gold;
+  box-shadow: 0 0 0.7em gold;
+}
+
+input:hover{
+  box-shadow: 0 0 0.7em gold;
+}
+
 footer {
   display: flex;
   bottom: 0;
